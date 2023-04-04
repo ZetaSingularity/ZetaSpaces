@@ -36,7 +36,7 @@
 	},
 /obj/structure/table/reinforced,
 /obj/machinery/microwave,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "bU" = (
 /obj/structure/cable{
@@ -161,10 +161,8 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "gk" = (
-/obj/machinery/atmospherics/components/binary/pump/on{
-	dir = 8;
-	name = "Air to Distro";
-	target_pressure = 500
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
@@ -256,7 +254,7 @@
 /obj/item/radio/off,
 /obj/item/radio/off,
 /obj/item/radio/off,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "kK" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -292,7 +290,7 @@
 /obj/structure/window/reinforced/tinted/frosted{
 	dir = 8
 	},
-/turf/open/floor/circuit/airless,
+/turf/open/floor/circuit,
 /area/ship/crew/dorm)
 "lL" = (
 /obj/machinery/door/airlock/public/glass{
@@ -304,7 +302,7 @@
 /obj/structure/curtain/cloth,
 /obj/structure/bed,
 /obj/item/bedsheet/dorms,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "mk" = (
 /obj/machinery/power/terminal{
@@ -352,7 +350,7 @@
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "ob" = (
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
@@ -391,7 +389,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "oT" = (
 /obj/effect/turf_decal/siding/brown{
@@ -432,7 +430,7 @@
 "qB" = (
 /obj/structure/table/reinforced,
 /obj/machinery/chem_dispenser/drinks,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "qQ" = (
 /turf/template_noop,
@@ -474,7 +472,7 @@
 /area/ship/hallway/central)
 "rU" = (
 /obj/machinery/vending/clothing,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "rZ" = (
 /obj/effect/turf_decal/siding/blue{
@@ -483,7 +481,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "sn" = (
 /turf/open/floor/plasteel/mono,
@@ -788,11 +786,11 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "CI" = (
-/obj/machinery/atmospherics/pipe/layer_manifold{
-	dir = 8
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
 	},
-/turf/open/floor/plating,
-/area/ship/engineering)
+/turf/open/floor/plasteel/dark,
+/area/ship/hallway/central)
 "Da" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
@@ -836,7 +834,7 @@
 /obj/item/storage/box/drinkingglasses{
 	pixel_x = 5
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "Ee" = (
 /obj/effect/turf_decal/siding/brown{
@@ -888,7 +886,7 @@
 /area/ship/engineering)
 "FT" = (
 /obj/machinery/cryopod,
-/turf/open/floor/circuit/airless,
+/turf/open/floor/circuit,
 /area/ship/crew/dorm)
 "Hi" = (
 /obj/effect/turf_decal/siding/brown,
@@ -918,11 +916,17 @@
 /obj/structure/cable{
 	icon_state = "0-8"
 	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
 /turf/open/floor/plating,
 /area/ship/engineering)
 "Io" = (
 /obj/machinery/power/shuttle/engine/electric{
 	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
 	},
 /turf/open/floor/plating,
 /area/ship/external)
@@ -989,7 +993,7 @@
 "KD" = (
 /obj/structure/table/wood,
 /obj/structure/bedsheetbin,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "KO" = (
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -1003,16 +1007,6 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/engineering)
-"KQ" = (
-/obj/item/hatchet/wooden,
-/turf/closed/wall/mineral/plastitanium/nodiagonal,
-/area/ship/medical)
-"Le" = (
-/obj/effect/turf_decal/corner/opaque/green{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/ship/hallway/central)
 "Lx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1066,11 +1060,11 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
 	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
 /obj/structure/cable{
 	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
@@ -1155,7 +1149,7 @@
 /area/ship/engineering)
 "OU" = (
 /obj/machinery/airalarm/directional/west,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "OY" = (
 /obj/machinery/door/airlock/command{
@@ -1170,6 +1164,9 @@
 /obj/item/radio/intercom{
 	pixel_x = 30
 	},
+/obj/item/paper/crumpled/bloody{
+	info = "Архитектор - мудак"
+	},
 /turf/open/floor/plasteel/mono,
 /area/ship/engineering)
 "Pg" = (
@@ -1183,7 +1180,7 @@
 	icon_state = "0-8"
 	},
 /obj/machinery/power/apc/auto_name/north,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "Pi" = (
 /obj/effect/spawner/structure/window/plasma/reinforced/plastitanium,
@@ -1275,7 +1272,7 @@
 /area/ship/hallway/central)
 "QH" = (
 /obj/structure/dresser,
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "QT" = (
 /obj/effect/turf_decal/siding/brown{
@@ -1332,7 +1329,7 @@
 /area/ship/medical)
 "SW" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
-	dir = 1
+	piping_layer = 2
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/engineering)
@@ -1499,7 +1496,7 @@
 /obj/item/radio/intercom{
 	pixel_x = 30
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "XX" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
@@ -1530,7 +1527,7 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 4
 	},
-/turf/open/floor/plasteel/airless,
+/turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "YL" = (
 /obj/effect/turf_decal/siding/brown,
@@ -1751,7 +1748,7 @@ XY
 zF
 eU
 Mk
-CI
+gk
 oW
 oW
 bU
@@ -1769,7 +1766,7 @@ sn
 eU
 ZU
 ML
-XY
+CI
 XY
 rz
 eU
@@ -1813,7 +1810,7 @@ Rm
 Rm
 Rm
 Cf
-KQ
+Rm
 zO
 XY
 QB
@@ -1885,7 +1882,7 @@ eL
 Rm
 Lx
 XY
-Le
+TQ
 Qt
 qB
 YE
