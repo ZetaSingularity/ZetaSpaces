@@ -1,6 +1,6 @@
 {
 	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
-	"map_name": "Beta-class Corvet",
+	"map_name": "Beta-class Corvet Zenith",
 	"prefix": "CUSS",
 	"cost": 0,
 	"namelists": [
