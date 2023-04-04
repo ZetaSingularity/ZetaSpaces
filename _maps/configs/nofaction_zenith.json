@@ -1,0 +1,26 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Beta-class Corvet",
+	"prefix": "CUSS",
+	"cost": 0,
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"BRITISH_NAVY",
+		"MERCANTILE"
+	],
+	"map_short_name": "Beta-class",
+	"map_path": "_maps/shuttles/zeta/nofaction_zenith.dmm",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/nt",
+			"officer": true,
+			"slots": 1
+		},
+		"Medical Doctor": 1,
+		"Engineer": 1,
+		"Shaft Miner": 1,
+		"Assistant": 1
+	},
+	"enabled": true
+}
