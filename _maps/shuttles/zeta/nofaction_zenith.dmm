@@ -167,12 +167,6 @@
 	},
 /turf/open/floor/plating,
 /area/ship/engineering)
-"gk" = (
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/ship/engineering)
 "hr" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
@@ -824,11 +818,11 @@
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
 "CI" = (
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
-/turf/open/floor/plasteel/white,
-/area/ship/medical)
+/turf/open/floor/plating,
+/area/ship/engineering)
 "Da" = (
 /obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
@@ -904,6 +898,9 @@
 /obj/item/clothing/head/welding{
 	pixel_x = -2;
 	pixel_y = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/engineering)
@@ -1048,12 +1045,19 @@
 	},
 /turf/open/floor/plasteel/mono,
 /area/ship/engineering)
-"Le" = (
+"KQ" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/plasteel/dark,
 /area/ship/hallway/central)
+"Le" = (
+/obj/effect/turf_decal/siding/brown{
+	dir = 8
+	},
+/obj/machinery/suit_storage_unit/mining,
+/turf/open/floor/plasteel/patterned/cargo_one,
+/area/ship/cargo)
 "Lx" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 8
@@ -1325,12 +1329,11 @@
 /turf/open/floor/plasteel,
 /area/ship/crew/dorm)
 "QT" = (
-/obj/effect/turf_decal/siding/brown{
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 8
 	},
-/obj/machinery/suit_storage_unit/mining,
-/turf/open/floor/plasteel/patterned/cargo_one,
-/area/ship/cargo)
+/turf/open/floor/plasteel/white,
+/area/ship/medical)
 "QV" = (
 /obj/effect/turf_decal/corner/opaque/blue/border{
 	dir = 5
@@ -1635,7 +1638,7 @@ or
 fw
 ve
 oT
-QT
+Le
 Oe
 or
 qQ
@@ -1800,7 +1803,7 @@ XY
 zF
 eU
 Mk
-gk
+CI
 oW
 oW
 bU
@@ -1818,12 +1821,12 @@ sn
 eU
 ZU
 ML
-Le
+KQ
 XY
 rz
 eU
 Um
-gk
+CI
 sn
 TI
 qg
@@ -1998,7 +2001,7 @@ qQ
 qQ
 so
 Si
-CI
+QT
 jv
 Cf
 Cs
