@@ -14,8 +14,3 @@
 	discordmsg += "--------------------------------------\n"
 	discordmsg += "New round will start soon!"
 	discordsendmsg("round", discordmsg)
-
-/datum/controller/subsystem/ticker/setup()
-	. = ..()
-	var/discordmsg = "New round starting..."
-	discordsendmsg("round", discordmsg)

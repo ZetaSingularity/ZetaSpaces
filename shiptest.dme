@@ -3399,5 +3399,6 @@
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
 #include "modular_zeta\code\__HELPERS\roundend.dm"
+#include "modular_zeta\code\__HELPERS\roundstart.dm"
 #include "modular_zeta\code\modules\discord\discord.dm"
 // END_INCLUDE
