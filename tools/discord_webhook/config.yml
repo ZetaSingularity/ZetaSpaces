@@ -1,0 +1,6 @@
+ip-whitelist:
+  - "127.0.0.1"
+
+round-webhook: "round webhook url"
+ahelp-webhook: "ahelp webhook url"
+ooc-webhook: "ooc webhook url"

@@ -97,6 +97,12 @@ GLOBAL_VAR_INIT(normal_ooc_colour, "#002eb8")
 						to_chat(C, "<font color='[GLOB.OOC_COLOR]'><b><span class='prefix'>OOC:</span> <EM>[prefix][keyname]:</EM> <span class='message linkify'>[msg]</span></b></font>")
 				else
 					to_chat(C, "<span class='ooc'><span class='prefix'>OOC:</span> <EM>[prefix][keyname]:</EM> <span class='message linkify'>[msg]</span></span>")
+	//Zeta edit start
+	if(holder && holder.fakekey)
+		discordsendmsg("ooc", "**[holder.fakekey]:** [msg]")
+	else
+		discordsendmsg("ooc", "**[key]:** [msg]")
+	//Zeta edit end
 
 /proc/toggle_ooc(toggle = null)
 	if(toggle != null) //if we're specifically en/disabling ooc

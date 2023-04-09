@@ -591,3 +591,6 @@ METACURRENCY_NAME ZetaCoin
 ## Grant metacurrency
 ## Comment this out if you don't want players to earn metacurrency
 GRANT_METACURRENCY
+
+## Unhashing will enable discord messages by webhooks. Configs here : tools/discord_webhook/config.yml
+# USING_DISCORD
