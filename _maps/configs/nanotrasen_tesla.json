@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
 	"map_name": "Lambda-class Tesla Frigate",
-	"prefix": "CUSS",
+	"prefix": "NTES",
 	"cost": 0,
 	"namelists": [
 		"GENERAL",
@@ -17,13 +17,16 @@
 			"officer": true,
 			"slots": 1
 		},
+		"Scientist": 1,
 		"Medical Doctor": 1,
 		"Engineer": {
 			"outfit": "/datum/outfit/job/engineer/nt",
 			"slots": 1
 		},
+		"Cargo Technician": 1,
+		"Atmospheric Technician": 1,
 		"Shaft Miner": 1,
-		"Assistant": 1
+		"Assistant": 3
 	},
 	"enabled": true
 }
