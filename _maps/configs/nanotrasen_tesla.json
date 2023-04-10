@@ -1,0 +1,29 @@
+{
+	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
+	"map_name": "Lambda-class Tesla Frigate",
+	"prefix": "CUSS",
+	"cost": 0,
+	"namelists": [
+		"GENERAL",
+		"SPACE",
+		"BRITISH_NAVY",
+		"MERCANTILE"
+	],
+	"map_short_name": "Lambda-class",
+	"map_path": "_maps/shuttles/zeta/nanotrasen_tesla.dmm",
+	"job_slots": {
+		"Captain": {
+			"outfit": "/datum/outfit/job/captain/nt",
+			"officer": true,
+			"slots": 1
+		},
+		"Medical Doctor": 1,
+		"Engineer": {
+			"outfit": "/datum/outfit/job/engineer/nt",
+			"slots": 1
+		},
+		"Shaft Miner": 1,
+		"Assistant": 1
+	},
+	"enabled": true
+}
