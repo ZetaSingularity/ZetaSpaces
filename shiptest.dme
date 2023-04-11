@@ -3400,5 +3400,6 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "modular_zeta\code\modules\for_ships\abductor\loadout.dm"
 #include "modular_zeta\code\modules\for_ships\abductor\machinery.dm"
 // END_INCLUDE

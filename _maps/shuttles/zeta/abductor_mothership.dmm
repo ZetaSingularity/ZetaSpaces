@@ -26,6 +26,9 @@
 /obj/item/clothing/suit/armor/abductor/vest,
 /obj/item/gun/energy/alien,
 /obj/item/gun/energy/alien,
+/obj/item/t_scanner/adv_mining_scanner,
+/obj/item/pickaxe/drill,
+/obj/item/clothing/suit/space/hardsuit/ancient,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "i" = (
@@ -199,6 +202,14 @@
 	dir = 5
 	},
 /obj/machinery/rnd/production/protolathe,
+/obj/item/stack/sheet/metal/twenty{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/stack/sheet/glass/twenty{
+	pixel_x = -7;
+	pixel_y = 11
+	},
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "W" = (
