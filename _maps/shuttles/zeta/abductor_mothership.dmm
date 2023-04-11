@@ -173,7 +173,7 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 1
 	},
-/obj/machinery/rnd/production/circuit_imprinter,
+/obj/machinery/rnd/production/circuit_imprinter/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "R" = (
@@ -209,7 +209,6 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 5
 	},
-/obj/machinery/rnd/production/protolathe,
 /obj/item/stack/sheet/metal/twenty{
 	pixel_x = 7;
 	pixel_y = 11
@@ -218,6 +217,7 @@
 	pixel_x = -7;
 	pixel_y = 11
 	},
+/obj/machinery/rnd/production/protolathe/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "W" = (
