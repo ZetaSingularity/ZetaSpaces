@@ -82,7 +82,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "bn" = (
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1{
+/obj/machinery/atmospherics/pipe/simple/green/hidden/layer2{
 	dir = 9
 	},
 /turf/open/floor/plating,
@@ -396,6 +396,9 @@
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 1
 	},
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "eM" = (
@@ -463,7 +466,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "fK" = (
-/obj/structure/window/plasma/reinforced,
 /obj/machinery/atmospherics/components/unary/vent_pump/high_volume/siphon/on/layer2,
 /turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
@@ -478,7 +480,6 @@
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
 	dir = 9
 	},
-/obj/structure/dresser,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/crew/cryo)
 "fS" = (
@@ -505,10 +506,10 @@
 	},
 /area/ship/cargo)
 "ge" = (
-/obj/machinery/atmospherics/pipe/simple/green/hidden/layer5{
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4{
 	dir = 1
 	},
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1{
+/obj/machinery/atmospherics/pipe/simple/green/hidden/layer2{
 	dir = 6
 	},
 /turf/open/floor/plating,
@@ -614,7 +615,7 @@
 /turf/open/floor/circuit/green,
 /area/ship/crew/cryo)
 "gV" = (
-/obj/machinery/atmospherics/pipe/simple/green/hidden/layer5{
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4{
 	dir = 5
 	},
 /turf/open/floor/plating,
@@ -1584,6 +1585,8 @@
 /obj/item/clothing/suit/hooded/wintercoat/cargo,
 /obj/item/clothing/suit/hooded/wintercoat/cargo,
 /obj/item/clothing/suit/hooded/wintercoat/cargo,
+/obj/item/kinetic_crusher,
+/obj/item/kinetic_crusher,
 /turf/open/floor/plasteel/patterned,
 /area/ship/cargo)
 "pj" = (
@@ -2047,6 +2050,9 @@
 "tA" = (
 /obj/effect/turf_decal/atmos/air,
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "tM" = (
@@ -2223,6 +2229,9 @@
 /area/ship/crew)
 "wv" = (
 /obj/machinery/atmospherics/components/unary/thermomachine/freezer,
+/obj/structure/window/plasma/reinforced{
+	dir = 1
+	},
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "wx" = (
@@ -3531,12 +3540,10 @@
 /turf/open/floor/plasteel/tech,
 /area/ship/medical/morgue)
 "Ie" = (
-/obj/machinery/atmospherics/pipe/simple/green/hidden/layer5{
+/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer4{
 	dir = 10
 	},
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1{
-	dir = 1
-	},
+/obj/machinery/atmospherics/pipe/simple/green/hidden/layer2,
 /turf/open/floor/plating,
 /area/ship/external)
 "Ik" = (
@@ -3618,9 +3625,7 @@
 /turf/open/floor/carpet/green,
 /area/ship/crew)
 "IT" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	pixel_x = 10
-	},
+/obj/machinery/atmospherics/components/unary/passive_vent/layer4,
 /turf/open/floor/plating,
 /area/ship/external)
 "IU" = (
@@ -4203,9 +4208,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering)
 "NT" = (
-/obj/machinery/atmospherics/components/unary/passive_vent{
-	pixel_x = -10
-	},
+/obj/machinery/atmospherics/components/unary/passive_vent/layer2,
 /turf/open/floor/plating,
 /area/ship/external)
 "NU" = (
@@ -4457,6 +4460,7 @@
 /area/ship/engineering)
 "RC" = (
 /obj/machinery/airalarm/directional/north,
+/obj/structure/dresser,
 /turf/open/floor/plasteel/tech/techmaint,
 /area/ship/crew/cryo)
 "RE" = (
@@ -4940,10 +4944,7 @@
 /area/ship/engineering/atmospherics)
 "UX" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/atmospherics/pipe/simple/green/hidden/layer5{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1{
+/obj/machinery/atmospherics/pipe/layer_manifold/visible{
 	dir = 1
 	},
 /turf/open/floor/plating,
@@ -5061,7 +5062,6 @@
 /turf/open/floor/plating,
 /area/ship/engineering/electrical)
 "VR" = (
-/obj/structure/window/plasma/reinforced,
 /obj/machinery/atmospherics/components/unary/passive_vent,
 /turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
@@ -5306,8 +5306,7 @@
 /turf/open/floor/plating,
 /area/ship/engineering/atmospherics)
 "Yd" = (
-/obj/structure/window/plasma/reinforced,
-/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/obj/machinery/atmospherics/components/unary/vent_pump/on,
 /turf/open/floor/engine/air,
 /area/ship/engineering/atmospherics)
 "Ye" = (
@@ -5367,10 +5366,7 @@
 /area/ship/medical)
 "YW" = (
 /obj/effect/spawner/structure/window/shuttle,
-/obj/machinery/atmospherics/pipe/simple/green/hidden/layer5{
-	dir = 1
-	},
-/obj/machinery/atmospherics/pipe/simple/dark/hidden/layer1{
+/obj/machinery/atmospherics/pipe/layer_manifold/visible{
 	dir = 1
 	},
 /turf/open/floor/plating,
