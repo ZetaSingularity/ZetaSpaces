@@ -26,6 +26,13 @@
 /obj/item/clothing/suit/armor/abductor/vest,
 /obj/item/gun/energy/alien,
 /obj/item/gun/energy/alien,
+/obj/item/t_scanner/adv_mining_scanner,
+/obj/item/pickaxe/drill,
+/obj/item/clothing/suit/space/hardsuit/ancient,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/clothing/mask/breath/medical,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "i" = (
@@ -186,6 +193,10 @@
 	light_color = "#511bb5"
 	},
 /obj/item/storage/box/alienhandcuffs,
+/obj/item/radio/intercom/wideband{
+	dir = 8;
+	pixel_x = 25
+	},
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "V" = (
@@ -199,6 +210,14 @@
 	dir = 5
 	},
 /obj/machinery/rnd/production/protolathe,
+/obj/item/stack/sheet/metal/twenty{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/stack/sheet/glass/twenty{
+	pixel_x = -7;
+	pixel_y = 11
+	},
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "W" = (

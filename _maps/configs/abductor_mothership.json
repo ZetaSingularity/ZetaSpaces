@@ -11,13 +11,13 @@
 	"map_short_name": "Mothership-class",
 	"map_path": "_maps/shuttles/zeta/abductor_mothership.dmm",
 	"job_slots": {
-		"Abductor Captain": {
-			"outfit": "/datum/outfit/abductor/agent",
+		"Abductor-Captain": {
+			"outfit": "/datum/outfit/abductor/scientist",
 			"officer": true,
 			"slots": 1
 		},
-		"Abductor Scientist": {
-			"outfit": "/datum/outfit/abductor/scientist",
+		"Abductor-Agent": {
+			"outfit": "/datum/outfit/abductor/agent",
 			"slots": 1
 		}
 	},
