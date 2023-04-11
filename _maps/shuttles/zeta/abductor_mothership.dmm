@@ -33,6 +33,10 @@
 /obj/item/tank/internals/emergency_oxygen/double,
 /obj/item/clothing/mask/breath/medical,
 /obj/item/clothing/mask/breath/medical,
+/obj/item/firing_pin/abductor,
+/obj/item/firing_pin/abductor,
+/obj/item/firing_pin/abductor,
+/obj/item/firing_pin/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "i" = (

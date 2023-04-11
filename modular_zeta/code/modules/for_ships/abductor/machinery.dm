@@ -10,8 +10,8 @@
 
 /obj/machinery/rnd/production/protolathe/abductor
 	name = "abductor protolathe"
-	icon = "modular_zeta/icons/obj/machines/abductor/research.dmi"
+	icon = 'modular_zeta/icons/obj/machines/abductor/research.dmi'
 
 /obj/machinery/rnd/production/circuit_imprinter/abductor
 	name = "abductor circuit imprinter"
-	icon = "modular_zeta/icons/obj/machines/abductor/research.dmi"
+	icon = 'modular_zeta/icons/obj/machines/abductor/research.dmi'
