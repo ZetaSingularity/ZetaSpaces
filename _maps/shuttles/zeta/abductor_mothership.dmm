@@ -587,7 +587,7 @@
 /area/ship/security)
 "by" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
-	dir = 2;
+	dir = 4;
 	piping_layer = 2
 	},
 /obj/structure/catwalk,
