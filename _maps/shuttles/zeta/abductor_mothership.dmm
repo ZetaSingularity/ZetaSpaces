@@ -1,137 +1,1225 @@
-"aa" = (/turf/template_noop,/area/template_noop)
-"ab" = (/turf/closed/wall/mineral/abductor,/area/ship/engineering)
-"ac" = (/turf/closed/wall/mineral/abductor,/area/ship/cargo)
-"ad" = (/obj/docking_port/mobile{dir = 2; launch_status = 0; name = "NT Frigate"; port_direction = 8; preferred_direction = 4},/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/turf/open/floor/plating/abductor2,/area/ship/cargo)
-"ae" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/turf/open/floor/plating/abductor2,/area/ship/cargo)
-"af" = (/turf/closed/wall/mineral/abductor,/area/ship/bridge)
-"ag" = (/obj/machinery/light{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"ah" = (/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"ai" = (/obj/structure/closet/abductor,/obj/item/stack/sheet/mineral/abductor{amount = 50},/obj/item/stack/sheet/mineral/abductor{amount = 50},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aj" = (/obj/structure/closet/abductor,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"ak" = (/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"al" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"am" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"an" = (/obj/machinery/computer/camera_advanced/abductor,/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"ao" = (/obj/machinery/computer/helm,/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"ap" = (/obj/structure/table/abductor,/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aq" = (/obj/structure/cable{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 6},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 6},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"ar" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"as" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/plating/abductor2,/area/ship/engineering)
-"at" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"au" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"av" = (/obj/structure/cable{icon_state = "4-8"},/obj/structure/cable{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"aw" = (/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"ax" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/plating/abductor2,/area/ship/bridge)
-"ay" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"az" = (/obj/structure/cable{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 10},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 10},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aA" = (/obj/machinery/computer/cargo/express{dir = 8},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aB" = (/obj/machinery/light{dir = 8; light_color = "#e8eaff"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aC" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aD" = (/obj/machinery/airalarm/directional/south,/obj/machinery/light,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"aE" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"aF" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"aG" = (/obj/machinery/light{light_color = "#511bb5"},/obj/machinery/power/apc/auto_name/south,/obj/structure/cable,/turf/open/floor/mineral/abductor,/area/ship/cargo)
-"aH" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aI" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aJ" = (/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aK" = (/obj/machinery/power/shuttle/engine/electric{dir = 4},/obj/structure/cable{icon_state = "0-4"},/turf/closed/wall/mineral/abductor,/area/ship/external)
-"aL" = (/obj/machinery/power/smes/shuttle/precharged{dir = 4},/obj/structure/cable{icon_state = "0-8"},/turf/closed/wall/mineral/abductor,/area/ship/engineering)
-"aM" = (/obj/machinery/power/terminal{dir = 8},/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aN" = (/obj/structure/cable{icon_state = "2-8"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aO" = (/obj/machinery/light{dir = 4; light_color = "#511bb5"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aP" = (/turf/closed/wall/mineral/abductor,/area/ship/crew)
-"aQ" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/turf/open/floor/plating/abductor2,/area/ship/crew)
-"aR" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/plating/abductor2,/area/ship/crew)
-"aS" = (/obj/machinery/light{dir = 8; light_color = "#e8eaff"},/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"aT" = (/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{dir = 4},/obj/structure/catwalk,/turf/open/space/basic,/area/ship/external)
-"aU" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/turf/closed/wall/mineral/abductor,/area/ship/engineering)
-"aV" = (/obj/structure/cable{icon_state = "0-2"},/obj/machinery/power/rtg/abductor,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aW" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 6},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aX" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 9},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 9},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"aY" = (/obj/machinery/cryopod/abductor,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"aZ" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"ba" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bb" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"bc" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"bd" = (/obj/structure/cable{icon_state = "2-8"},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"be" = (/obj/machinery/power/terminal,/obj/structure/cable,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bf" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{dir = 8},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bg" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 8},/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bh" = (/obj/machinery/airalarm/directional/east,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bi" = (/obj/structure/curtain/bounty,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bj" = (/obj/structure/curtain/bounty,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bk" = (/obj/machinery/airalarm/directional/south,/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"bl" = (/obj/machinery/light{light_color = "#511bb5"},/obj/machinery/power/apc/auto_name/south,/obj/structure/cable,/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 5},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"bm" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 10},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 10},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"bn" = (/obj/item/radio/intercom/wideband{dir = 8; pixel_x = 25},/turf/open/floor/mineral/abductor,/area/ship/bridge)
-"bo" = (/obj/structure/cable{icon_state = "0-4"},/obj/machinery/power/smes/engineering/abductor,/obj/structure/cable{icon_state = "0-4"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bp" = (/obj/structure/cable{icon_state = "1-2"},/obj/structure/cable{icon_state = "1-4"},/obj/structure/cable{icon_state = "1-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{dir = 8},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bq" = (/obj/structure/cable{icon_state = "2-8"},/obj/structure/cable{icon_state = "2-4"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 10},/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 8},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"br" = (/obj/machinery/power/apc/auto_name/east,/obj/structure/cable{icon_state = "0-8"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bs" = (/obj/machinery/light{dir = 8; light_color = "#e8eaff"},/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bt" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bu" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bv" = (/obj/machinery/light{dir = 4; light_color = "#511bb5"},/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bw" = (/turf/closed/wall/mineral/abductor,/area/ship/security)
-"bx" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/plating/abductor2,/area/ship/security)
-"by" = (/obj/machinery/atmospherics/components/unary/tank/air{dir = 1; piping_layer = 2},/obj/structure/catwalk,/turf/open/space/basic,/area/ship/external)
-"bz" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/turf/closed/wall/mineral/abductor,/area/ship/engineering)
-"bA" = (/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 8},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bB" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bC" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 10},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bD" = (/obj/structure/bed/abductor,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bE" = (/obj/machinery/airalarm/directional/south,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bF" = (/obj/machinery/power/apc/auto_name/south,/obj/structure/cable,/turf/open/floor/mineral/abductor,/area/ship/crew)
-"bG" = (/turf/open/floor/mineral/abductor,/area/ship/security)
-"bH" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/turf/open/floor/plating/abductor2,/area/ship/security)
-"bI" = (/obj/structure/cable{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/security)
-"bJ" = (/obj/structure/bed/abductor,/obj/machinery/power/apc/auto_name/east,/obj/structure/cable{icon_state = "0-8"},/turf/open/floor/mineral/abductor,/area/ship/security)
-"bK" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 4},/turf/closed/wall/mineral/abductor,/area/ship/security)
-"bL" = (/obj/structure/cable{icon_state = "1-8"},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bM" = (/turf/closed/wall/mineral/abductor,/area/ship/science)
-"bN" = (/obj/structure/bed/abductor,/obj/machinery/light{dir = 8},/turf/open/floor/mineral/abductor,/area/ship/security)
-"bO" = (/obj/effect/spawner/structure/window/plasma,/turf/open/floor/mineral/abductor,/area/ship/security)
-"bP" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/security)
-"bQ" = (/obj/structure/table/abductor,/obj/item/retractor/alien,/obj/item/scalpel/alien,/obj/item/surgicaldrill/alien,/obj/item/hemostat/alien,/obj/item/circular_saw/alien,/obj/item/cautery/alien,/obj/machinery/light{dir = 4; light_color = "#511bb5"},/obj/item/storage/box/alienhandcuffs,/obj/item/paper/guides/antag/abductor,/obj/machinery/airalarm/directional/east,/obj/item/survey_handheld/elite,/turf/open/floor/mineral/abductor,/area/ship/security)
-"bR" = (/obj/structure/cable{icon_state = "1-4"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 5},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 5},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bS" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 8},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"bT" = (/obj/structure/fans/tiny,/obj/machinery/door/airlock/abductor,/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 8},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/plating/abductor2,/area/ship/engineering)
-"bU" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 8},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/science)
-"bV" = (/obj/structure/cable{icon_state = "4-8"},/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 10},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 4},/turf/open/floor/mineral/abductor,/area/ship/science)
-"bW" = (/obj/structure/cable{icon_state = "2-8"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 10},/turf/open/floor/mineral/abductor,/area/ship/science)
-"bX" = (/obj/machinery/chem_dispenser/abductor,/turf/open/floor/mineral/abductor,/area/ship/science)
-"bY" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 1},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,/turf/open/floor/mineral/abductor,/area/ship/security)
-"bZ" = (/obj/effect/spawner/structure/window/plasma,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"ca" = (/obj/machinery/light{dir = 8; light_color = "#e8eaff"},/turf/open/floor/mineral/abductor,/area/ship/science)
-"cb" = (/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/science)
-"cc" = (/obj/structure/cable{icon_state = "1-2"},/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/science)
-"cd" = (/obj/machinery/light{dir = 4; light_color = "#511bb5"},/turf/open/floor/mineral/abductor,/area/ship/science)
-"ce" = (/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{dir = 1},/turf/open/floor/mineral/abductor,/area/ship/security)
-"cf" = (/obj/structure/displaycase/trophy,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"cg" = (/obj/structure/fluff/iced_abductor,/turf/open/floor/mineral/abductor,/area/ship/engineering)
-"ch" = (/turf/open/floor/mineral/abductor,/area/ship/science)
-"ci" = (/obj/structure/cable{icon_state = "1-2"},/turf/open/floor/mineral/abductor,/area/ship/science)
-"cj" = (/obj/structure/closet/abductor,/obj/item/radio/headset/abductor,/obj/item/clothing/head/helmet/abductor,/obj/item/clothing/suit/armor/abductor/vest,/obj/item/storage/belt/military/abductor/full,/obj/item/storage/belt/military/abductor/full,/obj/item/radio/headset/abductor,/obj/item/clothing/under/abductor,/obj/item/clothing/under/abductor,/obj/item/clothing/head/helmet/abductor,/obj/item/clothing/suit/armor/abductor/vest,/obj/item/gun/energy/alien,/obj/item/gun/energy/alien,/obj/item/t_scanner/adv_mining_scanner,/obj/item/pickaxe/drill,/obj/item/clothing/suit/space/hardsuit/ancient,/obj/item/tank/internals/emergency_oxygen/double,/obj/item/tank/internals/emergency_oxygen/double,/obj/item/clothing/mask/breath/medical,/obj/item/clothing/mask/breath/medical,/obj/item/firing_pin/abductor,/obj/item/firing_pin/abductor,/obj/item/firing_pin/abductor,/obj/item/firing_pin/abductor,/turf/open/floor/mineral/abductor,/area/ship/science)
-"ck" = (/obj/machinery/airalarm/directional/south,/obj/machinery/rnd/production/circuit_imprinter/abductor,/turf/open/floor/mineral/abductor,/area/ship/science)
-"cl" = (/obj/machinery/power/apc/auto_name/south,/obj/machinery/computer/rdconsole{dir = 1},/obj/structure/cable,/turf/open/floor/mineral/abductor,/area/ship/science)
-"cm" = (/obj/structure/cable{icon_state = "0-8"},/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{dir = 5},/obj/item/stack/sheet/metal/twenty{pixel_x = 7; pixel_y = 11},/obj/item/stack/sheet/glass/twenty{pixel_x = -7; pixel_y = 11},/obj/machinery/rnd/production/protolathe/abductor,/turf/open/floor/mineral/abductor,/area/ship/science)
-"cn" = (/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{dir = 9},/turf/closed/wall/mineral/abductor,/area/ship/engineering)
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"aa" = (
+/turf/template_noop,
+/area/template_noop)
+"ab" = (
+/turf/closed/wall/mineral/abductor,
+/area/ship/engineering)
+"ac" = (
+/turf/closed/wall/mineral/abductor,
+/area/ship/cargo)
+"ad" = (
+/obj/docking_port/mobile{
+	dir = 2;
+	launch_status = 0;
+	name = "NT Frigate";
+	port_direction = 8;
+	preferred_direction = 4
+	},
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/turf/open/floor/plating/abductor2,
+/area/ship/cargo)
+"ae" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/turf/open/floor/plating/abductor2,
+/area/ship/cargo)
+"af" = (
+/turf/closed/wall/mineral/abductor,
+/area/ship/bridge)
+"ag" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"ah" = (
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"ai" = (
+/obj/structure/closet/abductor,
+/obj/item/stack/sheet/mineral/abductor{
+	amount = 50
+	},
+/obj/item/stack/sheet/mineral/abductor{
+	amount = 50
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aj" = (
+/obj/structure/closet/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"ak" = (
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"al" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"am" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"an" = (
+/obj/machinery/computer/camera_advanced/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"ao" = (
+/obj/machinery/computer/helm,
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"ap" = (
+/obj/structure/table/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aq" = (
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 6
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"ar" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"as" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating/abductor2,
+/area/ship/engineering)
+"at" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"au" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"av" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"aw" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"ax" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating/abductor2,
+/area/ship/bridge)
+"ay" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"az" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aA" = (
+/obj/machinery/computer/cargo/express{
+	dir = 8
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aB" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aD" = (
+/obj/machinery/airalarm/directional/south,
+/obj/machinery/light,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"aE" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"aF" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"aG" = (
+/obj/machinery/light{
+	light_color = "#511bb5"
+	},
+/obj/machinery/power/apc/auto_name/south,
+/obj/structure/cable,
+/turf/open/floor/mineral/abductor,
+/area/ship/cargo)
+"aH" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aI" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aJ" = (
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aK" = (
+/obj/machinery/power/shuttle/engine/electric{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/closed/wall/mineral/abductor,
+/area/ship/external)
+"aL" = (
+/obj/machinery/power/smes/shuttle/precharged{
+	dir = 4
+	},
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/closed/wall/mineral/abductor,
+/area/ship/engineering)
+"aM" = (
+/obj/machinery/power/terminal{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aN" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aO" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#511bb5"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aP" = (
+/turf/closed/wall/mineral/abductor,
+/area/ship/crew)
+"aQ" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/plating/abductor2,
+/area/ship/crew)
+"aR" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/plating/abductor2,
+/area/ship/crew)
+"aS" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"aT" = (
+/obj/machinery/atmospherics/components/unary/outlet_injector/on/layer4{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/turf/open/space/basic,
+/area/ship/external)
+"aU" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/closed/wall/mineral/abductor,
+/area/ship/engineering)
+"aV" = (
+/obj/structure/cable{
+	icon_state = "0-2"
+	},
+/obj/machinery/power/rtg/abductor,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aW" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 6
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aX" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 9
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"aY" = (
+/obj/machinery/cryopod/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"aZ" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"ba" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bb" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"bc" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"bd" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"be" = (
+/obj/machinery/power/terminal,
+/obj/structure/cable,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bf" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/manifold/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bg" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 8
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bh" = (
+/obj/machinery/airalarm/directional/east,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bi" = (
+/obj/structure/curtain/bounty,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bj" = (
+/obj/structure/curtain/bounty,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bk" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"bl" = (
+/obj/machinery/light{
+	light_color = "#511bb5"
+	},
+/obj/machinery/power/apc/auto_name/south,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"bm" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"bn" = (
+/obj/item/radio/intercom/wideband{
+	dir = 8;
+	pixel_x = 25
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/bridge)
+"bo" = (
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/engineering/abductor,
+/obj/structure/cable{
+	icon_state = "0-4"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bp" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bq" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	icon_state = "2-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"br" = (
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bs" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bt" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bu" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bv" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#511bb5"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bw" = (
+/turf/closed/wall/mineral/abductor,
+/area/ship/security)
+"bx" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/plating/abductor2,
+/area/ship/security)
+"by" = (
+/obj/machinery/atmospherics/components/unary/tank/air{
+	dir = 1;
+	piping_layer = 2
+	},
+/obj/structure/catwalk,
+/turf/open/space/basic,
+/area/ship/external)
+"bz" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/turf/closed/wall/mineral/abductor,
+/area/ship/engineering)
+"bA" = (
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 8
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bB" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/manifold/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bC" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bD" = (
+/obj/structure/bed/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bE" = (
+/obj/machinery/airalarm/directional/south,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bF" = (
+/obj/machinery/power/apc/auto_name/south,
+/obj/structure/cable,
+/turf/open/floor/mineral/abductor,
+/area/ship/crew)
+"bG" = (
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bH" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/turf/open/floor/plating/abductor2,
+/area/ship/security)
+"bI" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bJ" = (
+/obj/structure/bed/abductor,
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bK" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 4
+	},
+/turf/closed/wall/mineral/abductor,
+/area/ship/security)
+"bL" = (
+/obj/structure/cable{
+	icon_state = "1-8"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bM" = (
+/turf/closed/wall/mineral/abductor,
+/area/ship/science)
+"bN" = (
+/obj/structure/bed/abductor,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bO" = (
+/obj/effect/spawner/structure/window/plasma,
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bP" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bQ" = (
+/obj/structure/table/abductor,
+/obj/item/retractor/alien,
+/obj/item/scalpel/alien,
+/obj/item/surgicaldrill/alien,
+/obj/item/hemostat/alien,
+/obj/item/circular_saw/alien,
+/obj/item/cautery/alien,
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#511bb5"
+	},
+/obj/item/storage/box/alienhandcuffs,
+/obj/item/paper/guides/antag/abductor,
+/obj/machinery/airalarm/directional/east,
+/obj/item/survey_handheld/elite,
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bR" = (
+/obj/structure/cable{
+	icon_state = "1-4"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bS" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"bT" = (
+/obj/structure/fans/tiny,
+/obj/machinery/door/airlock/abductor,
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/plating/abductor2,
+/area/ship/engineering)
+"bU" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 8
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"bV" = (
+/obj/structure/cable{
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 4
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"bW" = (
+/obj/structure/cable{
+	icon_state = "2-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 10
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"bX" = (
+/obj/machinery/chem_dispenser/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"bY" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"bZ" = (
+/obj/effect/spawner/structure/window/plasma,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"ca" = (
+/obj/machinery/light{
+	dir = 8;
+	light_color = "#e8eaff"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cb" = (
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cc" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cd" = (
+/obj/machinery/light{
+	dir = 4;
+	light_color = "#511bb5"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"ce" = (
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
+	dir = 1
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/security)
+"cf" = (
+/obj/structure/displaycase/trophy,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"cg" = (
+/obj/structure/fluff/iced_abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/engineering)
+"ch" = (
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"ci" = (
+/obj/structure/cable{
+	icon_state = "1-2"
+	},
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cj" = (
+/obj/structure/closet/abductor,
+/obj/item/radio/headset/abductor,
+/obj/item/clothing/head/helmet/abductor,
+/obj/item/clothing/suit/armor/abductor/vest,
+/obj/item/storage/belt/military/abductor/full,
+/obj/item/storage/belt/military/abductor/full,
+/obj/item/radio/headset/abductor,
+/obj/item/clothing/under/abductor,
+/obj/item/clothing/under/abductor,
+/obj/item/clothing/head/helmet/abductor,
+/obj/item/clothing/suit/armor/abductor/vest,
+/obj/item/gun/energy/alien,
+/obj/item/gun/energy/alien,
+/obj/item/t_scanner/adv_mining_scanner,
+/obj/item/pickaxe/drill,
+/obj/item/clothing/suit/space/hardsuit/ancient,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/tank/internals/emergency_oxygen/double,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/clothing/mask/breath/medical,
+/obj/item/firing_pin/abductor,
+/obj/item/firing_pin/abductor,
+/obj/item/firing_pin/abductor,
+/obj/item/firing_pin/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"ck" = (
+/obj/machinery/airalarm/directional/south,
+/obj/machinery/rnd/production/circuit_imprinter/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cl" = (
+/obj/machinery/power/apc/auto_name/south,
+/obj/machinery/computer/rdconsole{
+	dir = 1
+	},
+/obj/structure/cable,
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cm" = (
+/obj/structure/cable{
+	icon_state = "0-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
+	dir = 5
+	},
+/obj/item/stack/sheet/metal/twenty{
+	pixel_x = 7;
+	pixel_y = 11
+	},
+/obj/item/stack/sheet/glass/twenty{
+	pixel_x = -7;
+	pixel_y = 11
+	},
+/obj/machinery/rnd/production/protolathe/abductor,
+/turf/open/floor/mineral/abductor,
+/area/ship/science)
+"cn" = (
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
+	dir = 9
+	},
+/turf/closed/wall/mineral/abductor,
+/area/ship/engineering)
 
 (1,1,1) = {"
-aaaaaaaaaaababacadaeacafafaaaaaaaa
-aaaaabababababagahahagafafafafafaa
-aaaaabaiajakabalahahamafanaoapafaa
-aaaaabakaqarasatauavawaxayazaAafaa
-aaababaBaCakabaDaEaFaGafaHaIaJafaf
-aKaLaMaNaCaOabaPaQaRaPafaSaIaJapaf
-aTaUaVaWaXakabaYaZbaaYafbbbcbdapaf
-aaabbebfbgbhabaPbibjaPafbkblbmbnaf
-aaabbobpbqbrabbsbtbubvbwbwbwbxbwbw
-bybzbAbBbCakabbDbEbFbDbwbGbHbIbJbK
-aKaLaMbLaCaOabbMbMbMbMbwbNbObPbQbw
-aaaUabaBbRbSbTbUbVbWbXbwbObObYbwbK
-aaaaabbZbZbZabcacbcccdbwbNbOcebwaa
-aaaaabcfcgcfabchchcichbwbGbHbGbwaa
-aaaaabababababcjckclcmbwbwbwbwbwaa
-aaaaaaaaaaabcnbMbMbMbMbwbwaaaaaaaa
+aa
+aa
+aa
+aa
+aa
+aK
+aT
+aa
+aa
+by
+aK
+aa
+aa
+aa
+aa
+aa
+"}
+(2,1,1) = {"
+aa
+aa
+aa
+aa
+ab
+aL
+aU
+ab
+ab
+bz
+aL
+aU
+aa
+aa
+aa
+aa
+"}
+(3,1,1) = {"
+aa
+ab
+ab
+ab
+ab
+aM
+aV
+be
+bo
+bA
+aM
+ab
+ab
+ab
+ab
+aa
+"}
+(4,1,1) = {"
+aa
+ab
+ai
+ak
+aB
+aN
+aW
+bf
+bp
+bB
+bL
+aB
+bZ
+cf
+ab
+aa
+"}
+(5,1,1) = {"
+aa
+ab
+aj
+aq
+aC
+aC
+aX
+bg
+bq
+bC
+aC
+bR
+bZ
+cg
+ab
+aa
+"}
+(6,1,1) = {"
+ab
+ab
+ak
+ar
+ak
+aO
+ak
+bh
+br
+ak
+aO
+bS
+bZ
+cf
+ab
+ab
+"}
+(7,1,1) = {"
+ab
+ab
+ab
+as
+ab
+ab
+ab
+ab
+ab
+ab
+ab
+bT
+ab
+ab
+ab
+cn
+"}
+(8,1,1) = {"
+ac
+ag
+al
+at
+aD
+aP
+aY
+aP
+bs
+bD
+bM
+bU
+ca
+ch
+cj
+bM
+"}
+(9,1,1) = {"
+ad
+ah
+ah
+au
+aE
+aQ
+aZ
+bi
+bt
+bE
+bM
+bV
+cb
+ch
+ck
+bM
+"}
+(10,1,1) = {"
+ae
+ah
+ah
+av
+aF
+aR
+ba
+bj
+bu
+bF
+bM
+bW
+cc
+ci
+cl
+bM
+"}
+(11,1,1) = {"
+ac
+ag
+am
+aw
+aG
+aP
+aY
+aP
+bv
+bD
+bM
+bX
+cd
+ch
+cm
+bM
+"}
+(12,1,1) = {"
+af
+af
+af
+ax
+af
+af
+af
+af
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+bw
+"}
+(13,1,1) = {"
+af
+af
+an
+ay
+aH
+aS
+bb
+bk
+bw
+bG
+bN
+bO
+bN
+bG
+bw
+bw
+"}
+(14,1,1) = {"
+aa
+af
+ao
+az
+aI
+aI
+bc
+bl
+bw
+bH
+bO
+bO
+bO
+bH
+bw
+aa
+"}
+(15,1,1) = {"
+aa
+af
+ap
+aA
+aJ
+aJ
+bd
+bm
+bx
+bI
+bP
+bY
+ce
+bG
+bw
+aa
+"}
+(16,1,1) = {"
+aa
+af
+af
+af
+af
+ap
+ap
+bn
+bw
+bJ
+bQ
+bw
+bw
+bw
+bw
+aa
+"}
+(17,1,1) = {"
+aa
+aa
+aa
+aa
+af
+af
+af
+af
+bw
+bK
+bw
+bK
+aa
+aa
+aa
+aa
 "}
