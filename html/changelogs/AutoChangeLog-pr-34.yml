@@ -1,0 +1,4 @@
+author: sla2her
+delete-after: true
+changes:
+  - bugfix: fixed nofaction_red_cross.dmm
