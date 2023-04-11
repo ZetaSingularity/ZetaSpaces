@@ -497,9 +497,6 @@
 /turf/open/floor/mineral/abductor,
 /area/ship/bridge)
 "bo" = (
-/obj/structure/cable{
-	icon_state = "0-4"
-	},
 /obj/machinery/power/smes/engineering/abductor,
 /obj/structure/cable{
 	icon_state = "0-4"
@@ -590,16 +587,13 @@
 /area/ship/security)
 "by" = (
 /obj/machinery/atmospherics/components/unary/tank/air{
-	dir = 1;
+	dir = 2;
 	piping_layer = 2
 	},
 /obj/structure/catwalk,
 /turf/open/space/basic,
 /area/ship/external)
 "bz" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
 	dir = 8
 	},
@@ -666,37 +660,31 @@
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
 "bK" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 4
-	},
-/turf/closed/wall/mineral/abductor,
-/area/ship/security)
-"bL" = (
 /obj/structure/cable{
 	icon_state = "1-8"
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/engineering)
-"bM" = (
+"bL" = (
 /turf/closed/wall/mineral/abductor,
 /area/ship/science)
-"bN" = (
+"bM" = (
 /obj/structure/bed/abductor,
 /obj/machinery/light{
 	dir = 8
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
-"bO" = (
+"bN" = (
 /obj/effect/spawner/structure/window/plasma,
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
-"bP" = (
+"bO" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
-"bQ" = (
+"bP" = (
 /obj/structure/table/abductor,
 /obj/item/retractor/alien,
 /obj/item/scalpel/alien,
@@ -714,7 +702,7 @@
 /obj/item/survey_handheld/elite,
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
-"bR" = (
+"bQ" = (
 /obj/structure/cable{
 	icon_state = "1-4"
 	},
@@ -726,7 +714,7 @@
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/engineering)
-"bS" = (
+"bR" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -738,7 +726,7 @@
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/engineering)
-"bT" = (
+"bS" = (
 /obj/structure/fans/tiny,
 /obj/machinery/door/airlock/abductor,
 /obj/structure/cable{
@@ -752,7 +740,7 @@
 	},
 /turf/open/floor/plating/abductor2,
 /area/ship/engineering)
-"bU" = (
+"bT" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -764,7 +752,7 @@
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"bV" = (
+"bU" = (
 /obj/structure/cable{
 	icon_state = "4-8"
 	},
@@ -776,7 +764,7 @@
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"bW" = (
+"bV" = (
 /obj/structure/cable{
 	icon_state = "2-8"
 	},
@@ -785,35 +773,35 @@
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"bX" = (
+"bW" = (
 /obj/machinery/chem_dispenser/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"bY" = (
+"bX" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2,
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
-"bZ" = (
+"bY" = (
 /obj/effect/spawner/structure/window/plasma,
 /turf/open/floor/mineral/abductor,
 /area/ship/engineering)
-"ca" = (
+"bZ" = (
 /obj/machinery/light{
 	dir = 8;
 	light_color = "#e8eaff"
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cb" = (
+"ca" = (
 /obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer4{
 	dir = 1
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cc" = (
+"cb" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
@@ -822,37 +810,37 @@
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cd" = (
+"cc" = (
 /obj/machinery/light{
 	dir = 4;
 	light_color = "#511bb5"
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"ce" = (
+"cd" = (
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer2{
 	dir = 1
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/security)
-"cf" = (
+"ce" = (
 /obj/structure/displaycase/trophy,
 /turf/open/floor/mineral/abductor,
 /area/ship/engineering)
-"cg" = (
+"cf" = (
 /obj/structure/fluff/iced_abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/engineering)
-"ch" = (
+"cg" = (
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"ci" = (
+"ch" = (
 /obj/structure/cable{
 	icon_state = "1-2"
 	},
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cj" = (
+"ci" = (
 /obj/structure/closet/abductor,
 /obj/item/radio/headset/abductor,
 /obj/item/clothing/head/helmet/abductor,
@@ -879,12 +867,12 @@
 /obj/item/firing_pin/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"ck" = (
+"cj" = (
 /obj/machinery/airalarm/directional/south,
 /obj/machinery/rnd/production/circuit_imprinter/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cl" = (
+"ck" = (
 /obj/machinery/power/apc/auto_name/south,
 /obj/machinery/computer/rdconsole{
 	dir = 1
@@ -892,13 +880,7 @@
 /obj/structure/cable,
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cm" = (
-/obj/structure/cable{
-	icon_state = "0-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer2{
-	dir = 5
-	},
+"cl" = (
 /obj/item/stack/sheet/metal/twenty{
 	pixel_x = 7;
 	pixel_y = 11
@@ -910,12 +892,6 @@
 /obj/machinery/rnd/production/protolathe/abductor,
 /turf/open/floor/mineral/abductor,
 /area/ship/science)
-"cn" = (
-/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer4{
-	dir = 9
-	},
-/turf/closed/wall/mineral/abductor,
-/area/ship/engineering)
 
 (1,1,1) = {"
 aa
@@ -947,7 +923,7 @@ ab
 ab
 bz
 aL
-aU
+ab
 aa
 aa
 aa
@@ -982,10 +958,10 @@ aW
 bf
 bp
 bB
-bL
+bK
 aB
-bZ
-cf
+bY
+ce
 ab
 aa
 "}
@@ -1001,9 +977,9 @@ bg
 bq
 bC
 aC
-bR
-bZ
-cg
+bQ
+bY
+cf
 ab
 aa
 "}
@@ -1019,9 +995,9 @@ bh
 br
 ak
 aO
-bS
-bZ
-cf
+bR
+bY
+ce
 ab
 ab
 "}
@@ -1037,11 +1013,11 @@ ab
 ab
 ab
 ab
-bT
+bS
 ab
 ab
 ab
-cn
+ab
 "}
 (8,1,1) = {"
 ac
@@ -1054,12 +1030,12 @@ aY
 aP
 bs
 bD
-bM
-bU
-ca
-ch
-cj
-bM
+bL
+bT
+bZ
+cg
+ci
+bL
 "}
 (9,1,1) = {"
 ad
@@ -1072,12 +1048,12 @@ aZ
 bi
 bt
 bE
-bM
-bV
-cb
-ch
-ck
-bM
+bL
+bU
+ca
+cg
+cj
+bL
 "}
 (10,1,1) = {"
 ae
@@ -1090,12 +1066,12 @@ ba
 bj
 bu
 bF
-bM
-bW
-cc
-ci
-cl
-bM
+bL
+bV
+cb
+ch
+ck
+bL
 "}
 (11,1,1) = {"
 ac
@@ -1108,12 +1084,12 @@ aY
 aP
 bv
 bD
-bM
-bX
-cd
-ch
-cm
-bM
+bL
+bW
+cc
+cg
+cl
+bL
 "}
 (12,1,1) = {"
 af
@@ -1144,9 +1120,9 @@ bb
 bk
 bw
 bG
+bM
 bN
-bO
-bN
+bM
 bG
 bw
 bw
@@ -1162,9 +1138,9 @@ bc
 bl
 bw
 bH
-bO
-bO
-bO
+bN
+bN
+bN
 bH
 bw
 aa
@@ -1180,9 +1156,9 @@ bd
 bm
 bx
 bI
-bP
-bY
-ce
+bO
+bX
+cd
 bG
 bw
 aa
@@ -1198,7 +1174,7 @@ ap
 bn
 bw
 bJ
-bQ
+bP
 bw
 bw
 bw
@@ -1215,9 +1191,9 @@ af
 af
 af
 bw
-bK
 bw
-bK
+bw
+bw
 aa
 aa
 aa
