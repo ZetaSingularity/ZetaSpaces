@@ -1,0 +1,5 @@
+author: FeenieRU
+delete-after: true
+changes:
+  - rscadd: ship abductor_mothership.dmm got some materials and mining devices
+  - bugfix: abductees in abductor_mothership.dmm now really abductees with traits
