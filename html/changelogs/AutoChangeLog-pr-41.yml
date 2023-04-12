@@ -1,0 +1,7 @@
+author: FeenieRU
+delete-after: true
+changes:
+  - rscadd: New race - Advanced Drone /datum/species/adv_drone
+  - rscadd: New pickable race in Setup Character
+  - imageadd: Advanced drones faces, hairs and limbs
+  - config: Adding advanced drones as pickable race in Setup Character
