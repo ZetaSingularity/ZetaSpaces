@@ -109,6 +109,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"ipc_antenna" = "None",
 							"ipc_chassis" = "Morpheus Cyberkinetics (Custom)",
 							"ipc_brain" = "Posibrain",
+							"adv_drone_face" = "Normal",//Zeta edit
+							"adv_drone_hair" = "Bald",//Zeta edit
 							"kepori_feathers" = "Plain",
 							"kepori_body_feathers" = "Plain",
 							"kepori_tail_feathers" = "Fan",
@@ -684,6 +686,38 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 				if(mutant_category >= MAX_MUTANT_ROWS)
 					dat += "</td>"
 					mutant_category = 0
+
+//Zeta edit start
+			if("adv_drone_face" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Face-screen style</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=adv_drone_face;task=input'>[features["adv_drone_face"]]</a><BR>"
+
+				dat += "<span style='border: 1px solid #161616; background-color: #[eye_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=eyes;task=input'>Change</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
+			if("adv_drone_hair" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Synth-hair Style</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=adv_drone_hair;task=input'>[features["adv_drone_hair"]]</a><BR>"
+
+				dat += "<span style='border:1px solid #161616; background-color: #[hair_color];'>&nbsp;&nbsp;&nbsp;</span> <a href='?_src_=prefs;preference=hair;task=input'>Change</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+//Zeta edit end
 
 			if("kepori_feathers" in pref_species.default_features)
 				if(!mutant_category)
@@ -1888,6 +1922,24 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 					if(new_ipc_antenna)
 						features["ipc_antenna"] = new_ipc_antenna
+
+//Zeta edit start
+				if("adv_drone_face")
+					var/new_adv_drone_face
+
+					new_adv_drone_face = input(user, "Choose your character's face:", "Character Preference") as null|anything in GLOB.adv_drone_face_list
+
+					if(new_adv_drone_face)
+						features["adv_drone_face"] = new_adv_drone_face
+
+				if("adv_drone_hair")
+					var/new_adv_drone_hair
+
+					new_adv_drone_hair = input(user, "Choose your character's hair:", "Character Preference") as null|anything in GLOB.adv_drone_hair_list
+
+					if(new_adv_drone_hair)
+						features["adv_drone_hair"] = new_adv_drone_hair
+//Zeta edit end
 
 				if("ipc_chassis")
 					var/new_ipc_chassis
