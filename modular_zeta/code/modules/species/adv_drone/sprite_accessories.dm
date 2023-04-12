@@ -1,5 +1,4 @@
-///Haven't read by __HELPERS
-/*
+///Accessories for Advanced Drones
 /datum/sprite_accessory/adv_drone_face
 	icon = 'modular_zeta/icons/mob/species/adv_drone/adv_drone_face.dmi'
 	color_src = EYECOLOR
@@ -87,4 +86,3 @@
 /datum/sprite_accessory/adv_drone_hair/slightlymessy
 	name = "Slightly messy"
 	icon_state = "slightlymessy"
-*/
