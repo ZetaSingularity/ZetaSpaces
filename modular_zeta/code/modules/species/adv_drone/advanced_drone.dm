@@ -1,5 +1,5 @@
 /datum/species/adv_drone
-	name = "\improper Advanced Drone" //inherited from the real species, for health scanners and things
+	name = "\improper Advanced Drone"
 	id = SPECIES_ADVDRONE
 	sexes = TRUE
 	species_traits = list(NOTRANSSTING,NOEYESPRITES,NO_DNA_COPY,NOBLOOD,TRAIT_EASYDISMEMBER,NOZOMBIE,MUTCOLORS,REVIVESBYHEALING,NOHUSK,NOMOUTH,NO_BONES, MUTCOLORS) //all of these + whatever we inherit from the real species
@@ -11,7 +11,7 @@
 	mutantliver = /obj/item/organ/liver/cybernetic/upgraded/ipc
 	mutantstomach = /obj/item/organ/stomach/cell
 	mutantears = /obj/item/organ/ears/robot
-	mutantlungs = null //no more collecting change for you
+	mutantlungs = null
 	mutantappendix = null
 	mutant_organs = list(/obj/item/organ/cyberimp/arm/power_cord)
 	mutant_bodyparts = list("adv_drone_face", "adv_drone_hair", "ipc_brain")
@@ -31,9 +31,7 @@
 	wings_icons = list("Robotic")
 	changesource_flags = MIRROR_BADMIN | WABBAJACK | MIRROR_MAGIC | MIRROR_PRIDE | ERT_SPAWN | RACE_SWAP | SLIME_EXTRACT
 	species_language_holder = /datum/language_holder/ipc
-	loreblurb = "Advanced drones are synthetic lifeforms composed of an Artificial \
-	Intelligence program encased in a bipedal robotic shell. They are fragile, allergic to EMPs, and the butt of endless toaster jokes. \
-	Just as easy to repair as they are to destroy, they might just get their last laugh in as you're choking on neurotoxins. Beep Boop."
+	loreblurb = "Advanced drones are synthetic lifeforms created for helping human with work in exo-planets, but something goes wrong and people died. Survived drones continued their work and extension."
 	ass_image = 'icons/ass/assmachine.png'
 
 	species_chest = /obj/item/bodypart/chest/adv_drone
@@ -43,24 +41,22 @@
 	species_l_leg = /obj/item/bodypart/leg/left/adv_drone
 	species_r_leg = /obj/item/bodypart/leg/right/adv_drone
 
-	/// The last screen used when the IPC died.
 	var/saved_screen
 	var/datum/action/innate/change_screen/change_screen
 
 /datum/species/adv_drone/random_name(unique)
-	var/ipc_name = "[pick(GLOB.posibrain_names)]-[rand(100, 999)]"
-	return ipc_name
+	var/drone_name = "[pick(GLOB.posibrain_names)]-[rand(100, 999)]"
+	return drone_name
 
+/*
 /datum/species/adv_drone/New()
 	. = ..()
-	// This is in new because "[HEAD_LAYER]" etc. is NOT a constant compile-time value. For some reason.
-	// Why not just use HEAD_LAYER? Well, because HEAD_LAYER is a number, and if you try to use numbers as indexes,
-	// BYOND will try to make it an ordered list. So, we have to use a string. This is annoying, but it's the only way to do it smoothly.
 	offset_clothing = list(
-		"[GLASSES_LAYER]" = list("[NORTH]" = list("x" = 0, "y" = 0), "[EAST]" = list("x" = 2, "y" = 0), "[SOUTH]" = list("x" = 0, "y" = 0), "[WEST]" = list("x" = -2, "y" = 0)),
+		"[HEAD_LAYER]" = list("[NORTH]" = list("x" = 0, "y" = 2), "[EAST]" = list("x" = 0, "y" = 0), "[SOUTH]" = list("x" = 0, "y" = 0), "[WEST]" = list("x" = 0, "y" = 0)),
 	)
+*/
 
-/datum/species/adv_drone/on_species_gain(mob/living/carbon/C, datum/species/old_species, pref_load) // Let's make that IPC actually robotic.
+/datum/species/adv_drone/on_species_gain(mob/living/carbon/C, datum/species/old_species, pref_load)
 	if(ishuman(C))
 		var/mob/living/carbon/human/H = C
 		if(!change_screen)
@@ -86,18 +82,18 @@
 /datum/species/adv_drone/proc/post_death(mob/living/carbon/C)
 	if(C.stat < DEAD)
 		return
-	C.dna.features["adv_drone_face"] = null // Turns off their monitor on death.
+	C.dna.features["adv_drone_face"] = null
 	C.update_body()
 
 /datum/action/innate/change_screen
-	name = "Change Display"
+	name = "Change Face Display"
 	check_flags = AB_CHECK_CONSCIOUS
 	icon_icon = 'icons/mob/actions/actions_silicon.dmi'
 	button_icon_state = "drone_vision"
 
 /datum/action/innate/change_screen/Activate()
-	var/screen_choice = input(usr, "Which screen do you want to use?", "Screen Change") as null | anything in GLOB.adv_drone_face_list
-	var/color_choice = input(usr, "Which color do you want your screen to be?", "Color Change") as null | color
+	var/screen_choice = input(usr, "Which face do you want to display?", "Face Change") as null | anything in GLOB.adv_drone_face_list
+	var/color_choice = input(usr, "Which color do you want your face to be?", "Color Change") as null | color
 	if(!screen_choice)
 		return
 	if(!color_choice)
@@ -150,8 +146,8 @@
 
 /datum/species/adv_drone/spec_life(mob/living/carbon/human/H)
 	. = ..()
-	if(H.health <= HEALTH_THRESHOLD_CRIT && H.stat != DEAD) // So they die eventually instead of being stuck in crit limbo.
-		H.adjustFireLoss(6) // After BODYTYPE_ROBOTIC resistance this is ~2/second
+	if(H.health <= HEALTH_THRESHOLD_CRIT && H.stat != DEAD)
+		H.adjustFireLoss(6)
 		if(prob(5))
 			to_chat(H, "<span class='warning'>Alert: Internal temperature regulation systems offline; thermal damage sustained. Shutdown imminent.</span>")
 			H.visible_message("[H]'s cooling system fans stutter and stall. There is a faint, yet rapid beeping coming from inside their chassis.")
@@ -175,7 +171,7 @@
 
 	var/datum/sprite_accessory/ipc_chassis/chassis_of_choice = GLOB.ipc_chassis_list[C.dna.features["ipc_chassis"]]
 
-	for(var/obj/item/bodypart/BP as anything in C.bodyparts) //Override bodypart data as necessary
+	for(var/obj/item/bodypart/BP as anything in C.bodyparts)
 		if(BP.limb_id=="synth")
 			BP.uses_mutcolor = chassis_of_choice.color_src ? TRUE : FALSE
 			if(BP.uses_mutcolor)

@@ -41,7 +41,7 @@
 
 /datum/sprite_accessory/adv_drone_face/blushed
 	name = "Blushed"
-	icon_state = "blushed"
+	icon_state = "blush"
 
 /datum/sprite_accessory/adv_drone_face/warning
 	name = "Warning"
