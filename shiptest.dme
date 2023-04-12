@@ -3404,5 +3404,5 @@
 #include "modular_zeta\code\modules\for_ships\abductor\machinery.dm"
 #include "modular_zeta\code\modules\species\adv_drone\advanced_drone.dm"
 #include "modular_zeta\code\modules\species\adv_drone\advanced_drone_bodyparts.dm"
-#include "modular_zeta\code\modules\species\adv_drone\sprite.accessories.dm"
+#include "modular_zeta\code\modules\species\adv_drone\sprite_accessories.dm"
 // END_INCLUDE
