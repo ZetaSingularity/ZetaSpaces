@@ -107,6 +107,7 @@
 #define SPECIES_ZOMBIE "zombie"
 #define SPECIES_GOOFZOMBIE "krokodil_zombie"
 #define SPECIES_XENOMORPH "xenomorph"
+#define SPECIES_ADVDRONE "adv_drone"//Zeta edit
 
 #define DIGITIGRADE_NEVER 0
 #define DIGITIGRADE_OPTIONAL 1
@@ -129,6 +130,7 @@
 #define FLAG_LIZARD (1<<5)
 #define FLAG_FLY (1<<6)
 #define FLAG_MONKEY (1<<7)
+#define FLAG_ADVDRONE (1<<8)//Zeta edit
 
 //Bodytype defines for how things can be worn.
 #define BODYTYPE_ORGANIC (1<<0)

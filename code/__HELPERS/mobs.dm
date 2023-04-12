@@ -89,6 +89,12 @@
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_antennas, GLOB.ipc_antennas_list)
 	if(!GLOB.ipc_chassis_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_chassis, GLOB.ipc_chassis_list)
+//Zeta edit start
+	if(!GLOB.adv_drone_face_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_face, GLOB.adv_drone_face_list)
+	if(!GLOB.adv_drone_hair_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_hair, GLOB.adv_drone_hair_list)
+//Zeta edit end
 	if(!GLOB.spider_legs_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/spider_legs, GLOB.spider_legs_list)
 	if(!GLOB.spider_spinneret_list.len)

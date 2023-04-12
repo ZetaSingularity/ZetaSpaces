@@ -421,6 +421,8 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	READ_FILE(S["feature_ipc_antenna"], features["ipc_antenna"])
 	READ_FILE(S["feature_ipc_chassis"], features["ipc_chassis"])
 	READ_FILE(S["feature_ipc_brain"], features["ipc_brain"])
+	READ_FILE(S["feature_adv_drone_face"], features["adv_drone_face"])//Zeta edit
+	READ_FILE(S["feature_adv_drone_hair"], features["adv_drone_hair"])//Zeta edit
 	READ_FILE(S["feature_kepori_feathers"], features["kepori_feathers"])
 	READ_FILE(S["feature_kepori_body_feathers"], features["kepori_body_feathers"])
 	READ_FILE(S["feature_kepori_tail_feathers"], features["kepori_tail_feathers"])
@@ -608,6 +610,8 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["feature_ipc_antenna"]			, features["ipc_antenna"])
 	WRITE_FILE(S["feature_ipc_chassis"]			, features["ipc_chassis"])
 	WRITE_FILE(S["feature_ipc_brain"]			, features["ipc_brain"])
+	WRITE_FILE(S["feature_adv_drone_face"], features["adv_drone_face"])//Zeta edit
+	WRITE_FILE(S["feature_adv_drone_hair"], features["adv_drone_hair"])//Zeta edit
 	WRITE_FILE(S["feature_kepori_feathers"]	, features["kepori_feathers"])
 	WRITE_FILE(S["feature_kepori_body_feathers"], features["kepori_body_feathers"])
 	WRITE_FILE(S["feature_kepori_tail_feathers"], features["kepori_tail_feathers"])

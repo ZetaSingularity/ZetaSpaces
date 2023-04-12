@@ -872,6 +872,16 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 		if(!H.dna.features["ipc_antenna"] || H.dna.features["ipc_antenna"] == "None" || H.head && (H.head.flags_inv & HIDEEARS) || !HD)
 			bodyparts_to_add -= "ipc_antenna"
 
+//Zeta edit start
+	if("adv_drone_face" in mutant_bodyparts)
+		if(!H.dna.features["adv_drone_face"] || H.dna.features["adv_drone_face"] == "None" || (H.wear_mask && (H.wear_mask.flags_inv & HIDEEYES)) || !HD)
+			bodyparts_to_add -= "adv_drone_face"
+
+	if("adv_drone_hair" in mutant_bodyparts)
+		if(!H.dna.features["adv_drone_hair"] || H.dna.features["adv_drone_hair"] == "None" || H.head && (H.head.flags_inv & HIDEHAIR) || !HD)
+			bodyparts_to_add -= "adv_drone_hair"
+//Zeta edit end
+
 	if("spider_legs" in mutant_bodyparts)
 		if(!H.dna.features["spider_legs"] || H.dna.features["spider_legs"] == "None" || (H.wear_suit && (H.wear_suit.flags_inv & HIDEJUMPSUIT) && (!H.wear_suit.species_exception || !is_type_in_list(src, H.wear_suit.species_exception))))
 			bodyparts_to_add -= "spider_legs"
