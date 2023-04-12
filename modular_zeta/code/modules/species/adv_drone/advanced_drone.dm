@@ -78,15 +78,15 @@
 		change_screen.Remove(C)
 
 /datum/species/adv_drone/spec_death(gibbed, mob/living/carbon/C)
-	saved_screen = C.dna.features["ipc_screen"]
-	C.dna.features["ipc_screen"] = "BSOD"
+	saved_screen = C.dna.features["adv_drone_face"]
+	C.dna.features["adv_drone_face"] = "err"
 	C.update_body()
 	addtimer(CALLBACK(src, .proc/post_death, C), 5 SECONDS)
 
 /datum/species/adv_drone/proc/post_death(mob/living/carbon/C)
 	if(C.stat < DEAD)
 		return
-	C.dna.features["ipc_screen"] = null // Turns off their monitor on death.
+	C.dna.features["adv_drone_face"] = null // Turns off their monitor on death.
 	C.update_body()
 
 /datum/action/innate/change_screen
@@ -96,7 +96,7 @@
 	button_icon_state = "drone_vision"
 
 /datum/action/innate/change_screen/Activate()
-	var/screen_choice = input(usr, "Which screen do you want to use?", "Screen Change") as null | anything in GLOB.ipc_screens_list
+	var/screen_choice = input(usr, "Which screen do you want to use?", "Screen Change") as null | anything in GLOB.adv_drone_face_list
 	var/color_choice = input(usr, "Which color do you want your screen to be?", "Color Change") as null | color
 	if(!screen_choice)
 		return
@@ -105,7 +105,7 @@
 	if(!ishuman(owner))
 		return
 	var/mob/living/carbon/human/H = owner
-	H.dna.features["ipc_screen"] = screen_choice
+	H.dna.features["adv_drone_face"] = screen_choice
 	H.eye_color = sanitize_hexcolor(color_choice)
 	H.update_body()
 
@@ -158,7 +158,7 @@
 
 
 /datum/species/adv_drone/spec_revival(mob/living/carbon/human/H)
-	H.dna.features["ipc_screen"] = "BSOD"
+	H.dna.features["adv_drone_face"] = "err"
 	H.update_body()
 	H.say("Reactivating [pick("core systems", "central subroutines", "key functions")]...")
 	addtimer(CALLBACK(src, .proc/post_revival, H), 6 SECONDS)
@@ -167,7 +167,7 @@
 	if(H.stat < DEAD)
 		return
 	H.say("Unit [H.real_name] is fully functional. Have a nice day.")
-	H.dna.features["ipc_screen"] = saved_screen
+	H.dna.features["adv_drone_face"] = saved_screen
 	H.update_body()
 
 /datum/species/adv_drone/replace_body(mob/living/carbon/C, datum/species/new_species)

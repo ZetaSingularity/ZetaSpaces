@@ -109,6 +109,8 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"ipc_antenna" = "None",
 							"ipc_chassis" = "Morpheus Cyberkinetics (Custom)",
 							"ipc_brain" = "Posibrain",
+							"adv_drone_face" = "Normal",//Zeta edit
+							"adv_drone_hair" = "Bald",//Zeta edit
 							"kepori_feathers" = "Plain",
 							"kepori_body_feathers" = "Plain",
 							"kepori_tail_feathers" = "Fan",
@@ -1920,6 +1922,24 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 
 					if(new_ipc_antenna)
 						features["ipc_antenna"] = new_ipc_antenna
+
+//Zeta edit start
+				if("adv_drone_face")
+					var/new_adv_drone_face
+
+					new_adv_drone_face = input(user, "Choose your character's face:", "Character Preference") as null|anything in GLOB.adv_drone_face_list
+
+					if(new_adv_drone_face)
+						features["adv_drone_face"] = new_adv_drone_face
+
+				if("adv_drone_hair")
+					var/new_adv_drone_hair
+
+					new_adv_drone_hair = input(user, "Choose your character's hair:", "Character Preference") as null|anything in GLOB.adv_drone_hair_list
+
+					if(new_adv_drone_hair)
+						features["adv_drone_hair"] = new_adv_drone_hair
+//Zeta edit end
 
 				if("ipc_chassis")
 					var/new_ipc_chassis

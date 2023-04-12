@@ -129,6 +129,8 @@
 		"ipc_brain" = pick(GLOB.ipc_brain_list),
 		"ipc_chassis" = pick(GLOB.ipc_chassis_list),
 		"ipc_screen" = pick(GLOB.ipc_screens_list),
+		"adv_drone_face" = pick(GLOB.adv_drone_face_list),//Zeta edit
+		"adv_drone_hair" = pick(GLOB.adv_drone_hair_list),//Zeta edit
 		"kepori_body_feathers" = pick(GLOB.kepori_body_feathers_list),
 		"kepori_feathers" = pick(GLOB.kepori_feathers_list),
 		"kepori_tail_feathers" = pick(GLOB.kepori_tail_feathers_list),
