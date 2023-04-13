@@ -109,6 +109,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							"ipc_antenna" = "None",
 							"ipc_chassis" = "Morpheus Cyberkinetics (Custom)",
 							"ipc_brain" = "Posibrain",
+							"adv_drone_chassis" = "Worker",//Zeta edit
 							"adv_drone_face" = "Normal",//Zeta edit
 							"adv_drone_hair" = "Bald",//Zeta edit
 							"kepori_feathers" = "Plain",
@@ -688,6 +689,20 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 					mutant_category = 0
 
 //Zeta edit start
+
+			if("adv_drone_chassis" in pref_species.default_features)
+				if(!mutant_category)
+					dat += APPEARANCE_CATEGORY_COLUMN
+
+				dat += "<h3>Chassis Style</h3>"
+
+				dat += "<a href='?_src_=prefs;preference=adv_drone_chassis;task=input'>[features["adv_drone_chassis"]]</a><BR>"
+
+				mutant_category++
+				if(mutant_category >= MAX_MUTANT_ROWS)
+					dat += "</td>"
+					mutant_category = 0
+
 			if("adv_drone_face" in pref_species.default_features)
 				if(!mutant_category)
 					dat += APPEARANCE_CATEGORY_COLUMN
@@ -1924,6 +1939,15 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 						features["ipc_antenna"] = new_ipc_antenna
 
 //Zeta edit start
+
+				if("adv_drone_chassis")
+					var/new_ipc_chassis
+
+					new_ipc_chassis = input(user, "Choose your character's chassis:", "Character Preference") as null|anything in GLOB.adv_drone_chassis_list
+
+					if(new_ipc_chassis)
+						features["adv_drone_chassis"] = new_ipc_chassis
+
 				if("adv_drone_face")
 					var/new_adv_drone_face
 

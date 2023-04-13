@@ -1017,6 +1017,8 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 				if("ipc_brain")
 					S = GLOB.ipc_brain_list[H.dna.features["ipc_brain"]]
 				//Zeta edit start
+				if("adv_drone_chassis")
+					S = GLOB.adv_drone_chassis_list[H.dna.features["adv_drone_chassis"]]
 				if("adv_drone_face")
 					S = GLOB.adv_drone_face_list[H.dna.features["adv_drone_face"]]
 				if("adv_drone_hair")

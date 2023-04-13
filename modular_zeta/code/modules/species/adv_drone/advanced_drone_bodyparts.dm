@@ -2,7 +2,7 @@
 	name = "advanced drone head"
 	static_icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
 	icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
-	limb_id = "advdrone" //Overriden in /species/ipc/replace_body()
+	limb_id = SPECIES_ADVDRONE //Overriden in /species/ipc/replace_body()
 	is_dimorphic = FALSE
 	should_draw_greyscale = FALSE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC | BODYTYPE_BOXHEAD
@@ -18,7 +18,7 @@
 	name = "advanced drone chest"
 	static_icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
 	icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
-	limb_id = "advdrone"
+	limb_id = SPECIES_ADVDRONE
 	is_dimorphic = FALSE
 	should_draw_greyscale = FALSE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC
@@ -35,7 +35,7 @@
 	name = "advanced drone left arm"
 	static_icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
 	icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
-	limb_id = "advdrone"
+	limb_id = SPECIES_ADVDRONE
 	should_draw_greyscale = FALSE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC
 
@@ -51,7 +51,7 @@
 	name = "advanced drone right arm"
 	static_icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
 	icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
-	limb_id = "advdrone"
+	limb_id = SPECIES_ADVDRONE
 	should_draw_greyscale = FALSE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC
 
@@ -67,7 +67,7 @@
 	name = "advanced drone left leg"
 	static_icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
 	icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
-	limb_id = "advdrone"
+	limb_id = SPECIES_ADVDRONE
 	should_draw_greyscale = FALSE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC
 
@@ -83,7 +83,7 @@
 	name = "advanced drone right leg"
 	static_icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
 	icon = 'modular_zeta/icons/mob/species/adv_drone/bodyparts.dmi'
-	limb_id = "advdrone"
+	limb_id = SPECIES_ADVDRONE
 	should_draw_greyscale = FALSE
 	bodytype = BODYTYPE_HUMANOID | BODYTYPE_ROBOTIC
 

@@ -86,3 +86,21 @@
 /datum/sprite_accessory/adv_drone_hair/slightlymessy
 	name = "Slightly messy"
 	icon_state = "slightlymessy"
+
+/datum/sprite_accessory/adv_drone_chassis // Used for changing limb icons, doesn't need to hold the actual icon. That's handled in ipc.dm
+	icon = null
+	icon_state = "who cares fuck you" // In order to pull the chassis correctly, we need AN icon_state(see line 36-39). It doesn't have to be useful, because it isn't used.
+	color_src = 0
+
+/datum/sprite_accessory/adv_drone_chassis/greyscale
+	name = "Custom"
+	limbs_id = "gs"
+	color_src = MUTCOLORS
+
+/datum/sprite_accessory/adv_drone_chassis/worker
+	name = "Worker"
+	limbs_id = "worker"
+
+/datum/sprite_accessory/adv_drone_chassis/dm
+	name = "Dismantler"
+	limbs_id = "dm"

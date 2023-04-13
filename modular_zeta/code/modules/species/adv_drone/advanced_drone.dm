@@ -14,8 +14,8 @@
 	mutantlungs = null
 	mutantappendix = null
 	mutant_organs = list(/obj/item/organ/cyberimp/arm/power_cord)
-	mutant_bodyparts = list("adv_drone_face", "adv_drone_hair", "ipc_brain")
-	default_features = list("mcolor" = "#7D7D7D", "adv_drone_face" = "Normal", "adv_drone_hair" = "Bald", "ipc_brain" = "Posibrain", "body_size" = "Normal")
+	mutant_bodyparts = list("adv_drone_chassis", "adv_drone_face", "adv_drone_hair", "ipc_brain")
+	default_features = list("mcolor" = "#7D7D7D", "adv_drone_chassis" = "Worker", "adv_drone_face" = "Normal", "adv_drone_hair" = "Bald", "ipc_brain" = "Posibrain", "body_size" = "Normal")
 	meat = /obj/item/stack/sheet/plasteel{amount = 5}
 	skinned_type = /obj/item/stack/sheet/metal{amount = 10}
 	exotic_blood = /datum/reagent/fuel/oil
@@ -169,10 +169,10 @@
 /datum/species/adv_drone/replace_body(mob/living/carbon/C, datum/species/new_species)
 	..()
 
-	var/datum/sprite_accessory/ipc_chassis/chassis_of_choice = GLOB.ipc_chassis_list[C.dna.features["ipc_chassis"]]
+	var/datum/sprite_accessory/adv_drone_chassis/chassis_of_choice = GLOB.adv_drone_chassis_list[C.dna.features["adv_drone_chassis"]]
 
 	for(var/obj/item/bodypart/BP as anything in C.bodyparts)
-		if(BP.limb_id=="synth")
+		if(BP.limb_id=="adv_drone")
 			BP.uses_mutcolor = chassis_of_choice.color_src ? TRUE : FALSE
 			if(BP.uses_mutcolor)
 				BP.should_draw_greyscale = TRUE

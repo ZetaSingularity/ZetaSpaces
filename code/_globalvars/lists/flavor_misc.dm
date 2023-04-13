@@ -45,6 +45,7 @@ GLOBAL_LIST_EMPTY(squid_face_list)
 GLOBAL_LIST_EMPTY(ipc_screens_list)
 GLOBAL_LIST_EMPTY(ipc_antennas_list)
 GLOBAL_LIST_EMPTY(ipc_chassis_list)
+GLOBAL_LIST_EMPTY(adv_drone_chassis_list)//Zeta edit
 GLOBAL_LIST_EMPTY(adv_drone_face_list)//Zeta edit
 GLOBAL_LIST_EMPTY(adv_drone_hair_list)//Zeta edit
 GLOBAL_LIST_INIT(ipc_brain_list, list("Posibrain", "Man-Machine Interface"))

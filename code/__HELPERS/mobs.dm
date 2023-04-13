@@ -90,6 +90,8 @@
 	if(!GLOB.ipc_chassis_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_chassis, GLOB.ipc_chassis_list)
 //Zeta edit start
+	if(!GLOB.adv_drone_chassis_list.len)
+		init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_chassis, GLOB.adv_drone_chassis_list)
 	if(!GLOB.adv_drone_face_list.len)
 		init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_face, GLOB.adv_drone_face_list)
 	if(!GLOB.adv_drone_hair_list.len)
@@ -129,6 +131,7 @@
 		"ipc_brain" = pick(GLOB.ipc_brain_list),
 		"ipc_chassis" = pick(GLOB.ipc_chassis_list),
 		"ipc_screen" = pick(GLOB.ipc_screens_list),
+		"adv_drone_chassis" = pick(GLOB.adv_drone_chassis_list),//Zeta edit
 		"adv_drone_face" = pick(GLOB.adv_drone_face_list),//Zeta edit
 		"adv_drone_hair" = pick(GLOB.adv_drone_hair_list),//Zeta edit
 		"kepori_body_feathers" = pick(GLOB.kepori_body_feathers_list),

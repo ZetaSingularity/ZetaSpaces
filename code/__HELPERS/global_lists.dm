@@ -40,6 +40,7 @@
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_screens, GLOB.ipc_screens_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_antennas, GLOB.ipc_antennas_list)
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/ipc_chassis, GLOB.ipc_chassis_list)
+	init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_chassis, GLOB.adv_drone_chassis_list)//Zeta edit
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_face, GLOB.adv_drone_face_list)//Zeta edit
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/adv_drone_hair, GLOB.adv_drone_hair_list)//Zeta edit
 	init_sprite_accessory_subtypes(/datum/sprite_accessory/moth_markings, GLOB.moth_markings_list)

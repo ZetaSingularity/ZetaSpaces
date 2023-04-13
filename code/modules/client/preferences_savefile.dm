@@ -421,6 +421,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	READ_FILE(S["feature_ipc_antenna"], features["ipc_antenna"])
 	READ_FILE(S["feature_ipc_chassis"], features["ipc_chassis"])
 	READ_FILE(S["feature_ipc_brain"], features["ipc_brain"])
+	READ_FILE(S["feature_adv_drone_chassis"], features["adv_drone_chassis"])//Zeta edit
 	READ_FILE(S["feature_adv_drone_face"], features["adv_drone_face"])//Zeta edit
 	READ_FILE(S["feature_adv_drone_hair"], features["adv_drone_hair"])//Zeta edit
 	READ_FILE(S["feature_kepori_feathers"], features["kepori_feathers"])
@@ -532,8 +533,9 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	features["squid_face"]	= sanitize_inlist(features["squid_face"], GLOB.squid_face_list, "Squidward")
 	features["ipc_screen"]	= sanitize_inlist(features["ipc_screen"], GLOB.ipc_screens_list)
 	features["ipc_antenna"]	 = sanitize_inlist(features["ipc_antenna"], GLOB.ipc_antennas_list)
-	features["adv_drone_face"]	= sanitize_inlist(features["adv_drone_face"], GLOB.adv_drone_face_list)
-	features["adv_drone_hair"]	 = sanitize_inlist(features["adv_drone_hair"], GLOB.adv_drone_hair_list)
+	features["adv_drone_chassis"]	= sanitize_inlist(features["adv_drone_chassis"], GLOB.adv_drone_chassis_list)//Zeta edit
+	features["adv_drone_face"]	= sanitize_inlist(features["adv_drone_face"], GLOB.adv_drone_face_list)//Zeta edit
+	features["adv_drone_hair"]	 = sanitize_inlist(features["adv_drone_hair"], GLOB.adv_drone_hair_list)//Zeta edit
 	features["ipc_chassis"]	 = sanitize_inlist(features["ipc_chassis"], GLOB.ipc_chassis_list)
 	features["ipc_brain"] = sanitize_inlist(features["ipc_brain"], GLOB.ipc_brain_list)
 	features["kepori_feathers"] = sanitize_inlist(features["kepori_feathers"], GLOB.kepori_feathers_list, "Plain")
@@ -612,6 +614,7 @@ SAVEFILE UPDATING/VERSIONING - 'Simplified', or rather, more coder-friendly ~Car
 	WRITE_FILE(S["feature_ipc_antenna"]			, features["ipc_antenna"])
 	WRITE_FILE(S["feature_ipc_chassis"]			, features["ipc_chassis"])
 	WRITE_FILE(S["feature_ipc_brain"]			, features["ipc_brain"])
+	WRITE_FILE(S["feature_adv_drone_chassis"], features["adv_drone_chassis"])//Zeta edit
 	WRITE_FILE(S["feature_adv_drone_face"], features["adv_drone_face"])//Zeta edit
 	WRITE_FILE(S["feature_adv_drone_hair"], features["adv_drone_hair"])//Zeta edit
 	WRITE_FILE(S["feature_kepori_feathers"]	, features["kepori_feathers"])
