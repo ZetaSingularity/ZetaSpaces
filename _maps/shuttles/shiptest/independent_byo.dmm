@@ -469,8 +469,7 @@
 /turf/open/floor/plating/airless,
 /area/ship/construction)
 "Ld" = (
-/obj/structure/frame/computer,
-/obj/item/circuitboard/computer/shuttle/helm,
+/obj/machinery/computer/helm,
 /turf/open/floor/plating/airless,
 /area/ship/construction)
 "LK" = (
