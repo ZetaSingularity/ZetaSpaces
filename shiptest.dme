@@ -3400,6 +3400,7 @@
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
 #include "interface\skin.dmf"
+#include "modular_zeta\code\modules\cargo\packs\zeta.dm"
 #include "modular_zeta\code\modules\for_ships\abductor\loadout.dm"
 #include "modular_zeta\code\modules\for_ships\abductor\machinery.dm"
 #include "modular_zeta\code\modules\species\adv_drone\advanced_drone.dm"
