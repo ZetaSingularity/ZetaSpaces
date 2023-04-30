@@ -227,3 +227,4 @@
 	item_state = "shotgun"
 	selfcharge = 1
 	desc = "Dude yro'ue a genious"
+

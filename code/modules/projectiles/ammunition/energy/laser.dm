@@ -165,3 +165,4 @@
 	pellets = 9
 	variance = 360
 	select_name = "360 shot"
+
