@@ -5,7 +5,8 @@
 // END_INTERNALS
 
 // BEGIN_FILE_DIR
-#define FILE_DIR .
+//#define DEBUG
+//Optimization of server
 // END_FILE_DIR
 
 // BEGIN_PREFERENCES
