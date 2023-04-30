@@ -341,6 +341,32 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+/datum/crafting_recipe/ilshotgun
+	name = "Makeshift Laser Shotgun"
+	result = /obj/item/gun/energy/laser/scatter/makeshift
+	reqs = list(/obj/item/weaponcrafting/receiver = 1,
+				/obj/item/stock_parts/capacitor = 3,
+				/obj/item/stock_parts/micro_laser = 5,
+				/obj/item/stack/sheet/metal = 7,
+				/obj/item/stack/sheet/glass = 12,
+				/obj/item/stack/packageWrap = 5)
+	tools = list(TOOL_SCREWDRIVER)
+	time = 50
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+
+/datum/crafting_recipe/ilshotgun_solar
+	name = "Makeshift Self-Recharging Laser Shotgun"
+	result = /obj/item/gun/energy/laser/scatter/makeshift/solar
+	reqs = list(/obj/item/gun/energy/laser/scatter/makeshift = 1,
+				/obj/item/stack/cable_coil = 5,
+				/obj/item/solar_assembly = 1)
+	tools = list(TOOL_SCREWDRIVER, TOOL_WRENCH)
+	time = 50
+	category = CAT_WEAPONRY
+	subcategory = CAT_WEAPON
+// ITEM/solar_assembly
+
 /datum/crafting_recipe/chainsaw
 	name = "Chainsaw"
 	result = /obj/item/chainsaw
