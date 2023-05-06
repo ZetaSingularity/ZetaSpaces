@@ -341,6 +341,7 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 
+//ZETA EDIT START
 /datum/crafting_recipe/ilshotgun
 	name = "Makeshift Laser Shotgun"
 	result = /obj/item/gun/energy/laser/scatter/makeshift
@@ -366,6 +367,7 @@
 	category = CAT_WEAPONRY
 	subcategory = CAT_WEAPON
 // ITEM/solar_assembly
+//ZETA EDIT END
 
 /datum/crafting_recipe/chainsaw
 	name = "Chainsaw"
