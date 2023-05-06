@@ -154,6 +154,7 @@
 /obj/projectile/beam/emitter/singularity_pull()
 	return //don't want the emitters to miss
 
+//ZETA EDIT START
 // for makeshift lazer guns
 /obj/projectile/beam/emitter/weak
 	name = "makeshift lazergun beam"
@@ -161,8 +162,7 @@
 	damage = 2
 //	impact_effect_type = /obj/effect/temp_visual/impact_effect/green_laser
 //	light_color = LIGHT_COLOR_GREEN
-
-
+//ZETA EDIT END
 
 /obj/projectile/beam/lasertag
 	name = "laser tag beam"
