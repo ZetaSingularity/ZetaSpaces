@@ -152,3 +152,17 @@
 	projectile_type = /obj/projectile/beam/weak/penetrator
 	variance = 0.8
 	fire_sound = 'sound/weapons/laser4.ogg'
+
+//ZETA EDIT START : makeshift lazguns
+/obj/item/ammo_casing/energy/laser/scatter/makeshift
+	projectile_type = /obj/projectile/beam/emitter/weak
+	pellets = 9
+	variance = 45
+	select_name = "scatter"
+
+/obj/item/ammo_casing/energy/laser/scatter/makeshift/circle
+	projectile_type = /obj/projectile/beam/emitter/weak
+	pellets = 9
+	variance = 360
+	select_name = "360 shot"
+
