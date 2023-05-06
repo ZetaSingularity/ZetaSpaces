@@ -5,7 +5,7 @@
 	"namelists": ["GENERAL", "MERCANTILE", "WEAPONS"],
 	"map_short_name": "Buggy (D)",
 	"map_path": "_maps/shuttles/zeta/syndicate_buggy.dmm",
-	"cost": 0,
+	"cost": 400,
 	"job_slots": {
 		"Captain": {
 			"outfit": "/datum/outfit/job/captain/syndicate/gorlex",

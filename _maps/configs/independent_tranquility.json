@@ -5,6 +5,7 @@
 	"namelists": ["GENERAL", "SPACE", "NATURAL"],
 	"map_short_name": "Tranquility-class",
 	"map_path": "_maps/shuttles/shiptest/independent_tranquility.dmm",
+	"cost": 800,
 	"cost": 0,
 	"job_slots": {
 		"Captain": {

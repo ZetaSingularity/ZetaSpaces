@@ -3,6 +3,7 @@
 	"map_name": "Skipper-class Heavy Cruiser",
 	"map_short_name": "Skipper-class",
 	"prefix": "NTSV",
+	"cost": 800,
 	"namelists": [
 		"GENERAL",
 		"SPACE",

@@ -6,6 +6,7 @@
 	"map_short_name": "Talos-class",
 	"map_path": "_maps/shuttles/shiptest/inteq_talos.dmm",
 	"limit": 1,
+	"cost": 1200,
 	"cost": 0,
 	"job_slots": {
 		"Vanguard": {
