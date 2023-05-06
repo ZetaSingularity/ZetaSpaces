@@ -208,7 +208,7 @@
 	var/obj/item/modular_computer/integratedNTOS
 	var/NTOS_type = /obj/item/modular_computer/internal
 
-
+//ZETA EDIT START
 /obj/item/gun/energy/laser/scatter/makeshift
 	name = "makeshift laser shotgun"
 	icon = 'icons/obj/guns/energy.dmi'
