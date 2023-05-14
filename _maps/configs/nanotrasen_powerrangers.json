@@ -5,7 +5,7 @@
 	"map_name": "Nanotrasen Ranger-Class Aid Vessel",
 	"map_short_name": "Ranger-class",
 	"map_path": "_maps/shuttles/shiptest/nanotrasen_powerrangers.dmm",
-	"cost": 1200,
+	"cost": 400,
 	"limit": 1,
 	"cost": 0,
 	"job_slots": {

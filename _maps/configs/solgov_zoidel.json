@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
 	"map_name": "Zoidel-class Amphibious aircraft carrier",
-	"cost": 1800,
+	"cost": 500,
 	"prefix": "SG",
 	"namelists": ["GENERAL"],
 	"map_short_name": "Zoidel",

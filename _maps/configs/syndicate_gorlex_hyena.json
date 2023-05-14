@@ -5,7 +5,7 @@
 	"map_name": "Hyena-class Wrecking Tug",
 	"map_short_name": "Hyena-class",
 	"map_path": "_maps/shuttles/shiptest/syndicate_gorlex_hyena.dmm",
-	"cost": 800,
+	"cost": 300,
 	"job_slots": {
 		"Captain": {
 			"outfit": "/datum/outfit/job/captain/syndicate/gorlex",

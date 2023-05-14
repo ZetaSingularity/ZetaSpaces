@@ -1,7 +1,7 @@
 {
 	"$schema": "https://raw.githubusercontent.com/ZetaSingularity/ZetaSpaces/master/_maps/ship_config_schema.json",
 	"map_name": "Jupiter-Class Stormrider",
-	"cost": 1500,
+	"cost": 400,
 	"map_short_name": "Jupiter-Class",
 	"prefix": "ISV",
 	"namelists": ["WEAPONS"],
@@ -25,5 +25,5 @@
 			"slots": 2
 		}
 	},
-	"enabled": false
+	"enabled": true
 }
